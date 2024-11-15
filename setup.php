@@ -1,5 +1,8 @@
 <?php
 
+//This setup file will create the database and tables for the chat application, you don't need to run this, it's just for reference. 
+//File is already created in the root directory of the project.
+
 // Enable error reporting
 error_reporting(E_ALL);
 ini_set('display_errors', 1);

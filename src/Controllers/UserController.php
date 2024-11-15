@@ -12,8 +12,8 @@ class UserController {
         // Get the parsed body of the request
         $data = $request->getParsedBody();
 
-        // Debug the request body (for further inspection)
-        var_dump($data); // This will show the structure of the incoming data
+        
+        var_dump($data); 
 
         // Check if the 'username' field is in the parsed body
         $username = $data['username'] ?? null;
